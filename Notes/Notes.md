@@ -1,4 +1,4 @@
-### MOOD RANK
+# MOOD RANK
 
 1 - Terrible: You're experiencing intense negative emotions such as extreme sadness, despair, or frustration. It's difficult to find any joy or motivation in your day. You may feel overwhelmed by negative thoughts and have a hard time functioning.
 
@@ -24,7 +24,7 @@
 
 
 
-#### Stress
+# Stress
 
 1 - Minimal Stress: You're experiencing very little or no stress at all. You feel calm, relaxed, and at ease. There are no significant stressors impacting your day.
 
@@ -46,7 +46,7 @@
 
 10 - Extreme Stress: This is an extreme level of stress. You're feeling overwhelmed to the point where it's difficult to manage or cope with the stressors. The stress is significantly impacting your physical and mental health, and it's crucial to seek support and interventions to alleviate it.
 
-### Health
+# Health
 
 1 - Poor Health: You're experiencing significant health issues or discomfort. Your physical or mental well-being is severely compromised, and you may require immediate medical attention or intervention.
 
