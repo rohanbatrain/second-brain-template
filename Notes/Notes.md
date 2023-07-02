@@ -1,21 +1,3 @@
-
-# daily-note-v2
-
-## Reminders
-
-morning/stretching = downward dog to cobra stretch
-morning physical health involves calesthenic
-meal-type: protein, carbohydrates or general
-meal-name: should have recipe sop
-meal-feedback: tell about meal, was it tasty, or not were you satisfied etc
-
-
-We would be using digestive supplements only with protein shakes and other so that we don't have addiction to it, like to eat stuff we don't need to rely on syrups. This is not a hard and fast rule, because if syrups are making you eat then eat. But try to eat food without them first, if failed then go back to syrups
-
-
-# New system
-
-
 ### MOOD RANK
 
 1 - Terrible: You're experiencing intense negative emotions such as extreme sadness, despair, or frustration. It's difficult to find any joy or motivation in your day. You may feel overwhelmed by negative thoughts and have a hard time functioning.
@@ -39,20 +21,6 @@ We would be using digestive supplements only with protein shakes and other so th
 10 - Outstanding: This is an exceptional day where you feel ecstatic, inspired, and everything seems perfect. Your mood is at its peak, and you're overflowing with positive emotions such as exhilaration, bliss, or elation. You may feel a strong sense of purpose, accomplishment, and an immense appreciation for life.
 
 
-### Misc
-
-helped-harshdeep: this is the key which denotes how many times in a day i helped him.
-
-
-harshdeep-work: this is the key which denotes how many times in a day i did work which entirely belongs to him. 
-
-
-productivity is the key to rate the day of productivity
-
-
-outsourced-to-harsh:
-
-> The increment for this key will only occur if Harsh completes the outsourced work entirely on his own. It implies that he should not begin the task and then inform me to finish the remaining portion. Additionally, it does not imply that I outsourced the work and Harsh provided excuses for its poor quality without actually completing it. Such actions will not be considered and will not result in any increments.
 
 
 
@@ -101,88 +69,7 @@ outsourced-to-harsh:
 10 - Peak Health: This is the highest level of health. You feel extraordinary physically and mentally, with exceptional vitality, strength, and well-being. Your health is at its peak, allowing you to excel in all aspects of your life.
 
 
-## MIGRATE FROM GITHUB TO YOUR OWN VPS
-
-
-## Mistakes
-
-Track your mistakes in this format
-
-each new mistake will be incremented by 1 in the naming
-
-mistake-1-counter:: 
-mistake-2-counter:: 
-
-
-### Mistake log
-
-mistake-1 : this is i did and was my mistake and i name it mistake one, counter will help me know how many times i repeat the same mistake again and again. 
-
-mistake-2: same format just a continous integration for my daily note.
-
-
----
-
-#### Harshdeep WEEKLY TEMPLATE SNIPPET
----
-
-```tracker
-searchType: frontmatter
-searchTarget: helped-harshdeep-counter, received-harshdeep-help-counter, harshdeep-work-counter, outsourced-to-harshdeep-counter, conflict-with-harshdeep-counter, harshdeep-said-no-to-my-ideas-counter, harshdeep-said-yes-to-my-ideas-counter
-folder: Notes/Periodic-Notes/Daily-Notes/
-startDate: 2023-06-26
-endDate: 2023-07-02
-datasetName: Helped-him, He-Helped-me, Did-his-work, he-completed-my-work, had-conflicts, he-declined-my-idea, he-accepted-my-idea
-line:
-    title: Harshdeep Stats
-    lineColor: orange, red, white, yellow, green, pink, cyan
-    yAxisLabel: Value
-    yAxisUnit: Times
-    yMin: 0
-    showLegend: true
-	legendOrientation: vertical
-```
-
-
-```
-## Harshdeep
-helped-harshdeep-counter:
-received-harshdeep-help-counter:
-harshdeep-work-counter:
-outsourced-to-harshdeep-counter:
-conflict-with-harshdeep-counter:
-harshdeep-said-no-to-my-ideas-counter:
-harshdeep-said-yes-to-my-ideas-counter:
-```
 
 
 
-## NOTES
-
-We dont need to track tasks weekly, we are going to do that monthly.
-
-
----
-
-
-# Person template
-
-## relation-type:
-
-this describe whether the person is 
-
-1. directly (we met them) 
-2. indirectly (they doesn't know us) but we know them by reference
-
-
-# use git 
-
-Use it to track individual files, like yaml
-
-like a file has changed 4 different days, use git to have version history then plot a graph.
-
-
-
-## Trust level / person template
-
-Use this area to manually document trust up's and downs using inline fields in the format "YYYY-MM" by using comma in the field you can also save the reason if you want. 
+ 
