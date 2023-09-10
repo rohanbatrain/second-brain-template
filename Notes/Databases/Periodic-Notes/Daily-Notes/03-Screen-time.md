@@ -30,12 +30,50 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  bed-time:
+  android-screen-time:
     input: number
-    accessorKey: bed-time
-    key: bed-time
-    id: bed-time
-    label: Bed-TIme
+    accessorKey: android-screen-time
+    key: android-screen-time
+    id: android-screen-time
+    label: android-screen-time
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  laptop-screen-time:
+    input: number
+    accessorKey: laptop-screen-time
+    key: laptop-screen-time
+    id: laptop-screen-time
+    label: laptop-screen-time
+    position: 100
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  iphone-screen-time:
+    input: number
+    accessorKey: iphone-screen-time
+    key: iphone-screen-time
+    id: iphone-screen-time
+    label: iphone-screen-time
     position: 100
     skipPersist: false
     isHidden: false

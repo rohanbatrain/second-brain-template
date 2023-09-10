@@ -30,12 +30,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  expense:
-    input: text
-    accessorKey: expense
-    key: expense
-    id: expense
-    label: Expense
+  btech-advance-engineering-mathematics-hours-spent:
+    input: number
+    accessorKey: btech-advance-engineering-mathematics-hours-spent
+    key: btech-advance-engineering-mathematics-hours-spent
+    id: btech-advance-engineering-mathematics-hours-spent
+    label: btech-advance-engineering-mathematics-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -49,12 +49,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  income:
-    input: text
-    accessorKey: income
-    key: income
-    id: income
-    label: Income
+  btech-environment-sustainibility-and-climate-change-hours-spent:
+    input: number
+    accessorKey: btech-environment-sustainibility-and-climate-change-hours-spent
+    key: btech-environment-sustainibility-and-climate-change-hours-spent
+    id: btech-environment-sustainibility-and-climate-change-hours-spent
+    label: btech-environment-sustainibility-and-climate-change-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -68,12 +68,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  investment:
-    input: text
-    accessorKey: investment
-    key: investment
-    id: investment
-    label: Investment
+  btech-linux-lab-hours-spent:
+    input: number
+    accessorKey: btech-linux-lab-hours-spent
+    key: btech-linux-lab-hours-spent
+    id: btech-linux-lab-hours-spent
+    label: btech-linux-lab-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -87,12 +87,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  mood:
-    input: text
-    accessorKey: mood
-    key: mood
-    id: mood
-    label: Mood
+  btech-programming-in-c-hours-spent:
+    input: number
+    accessorKey: btech-programming-in-c-hours-spent
+    key: btech-programming-in-c-hours-spent
+    id: btech-programming-in-c-hours-spent
+    label: btech-programming-in-c-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -106,12 +106,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  productivity:
-    input: text
-    accessorKey: productivity
-    key: productivity
-    id: productivity
-    label: Productivity
+  btech-living-conversations-hours-spent:
+    input: number
+    accessorKey: btech-living-conversations-hours-spent
+    key: btech-living-conversations-hours-spent
+    id: btech-living-conversations-hours-spent
+    label: btech-living-conversations-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -125,12 +125,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  health:
-    input: text
-    accessorKey: health
-    key: health
-    id: health
-    label: Health
+  btech-problem-solving-hours-spent:
+    input: number
+    accessorKey: btech-problem-solving-hours-spent
+    key: btech-problem-solving-hours-spent
+    id: btech-problem-solving-hours-spent
+    label: btech-problem-solving-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -144,12 +144,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  water-counter:
-    input: text
-    accessorKey: water-counter
-    key: water-counter
-    id: water-counter
-    label: Water Litre Counter
+  bba-basic-mathematics-hours-spent:
+    input: number
+    accessorKey: bba-basic-mathematics-hours-spent
+    key: bba-basic-mathematics-hours-spent
+    id: bba-basic-mathematics-hours-spent
+    label: bba-basic-mathematics-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -163,12 +163,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  weight-tracker:
-    input: text
-    accessorKey: weight-tracker
-    key: weight-tracker
-    id: weight-tracker
-    label: Weight Tracker
+  bba-business-computing-hours-spent:
+    input: number
+    accessorKey: bba-business-computing-hours-spent
+    key: bba-business-computing-hours-spent
+    id: bba-business-computing-hours-spent
+    label: bba-business-computing-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -182,12 +182,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  stress-levels:
-    input: text
-    accessorKey: stress-levels
-    key: stress-levels
-    id: stress-levels
-    label: Stress Levels
+  bba-business-economics-hours-spent:
+    input: number
+    accessorKey: bba-business-economics-hours-spent
+    key: bba-business-economics-hours-spent
+    id: bba-business-economics-hours-spent
+    label: bba-business-economics-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -201,12 +201,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  sleep-hrs:
-    input: text
-    accessorKey: sleep-hrs
-    key: sleep-hrs
-    id: sleep-hrs
-    label: Sleep Hours
+  bba-financial-accounting-hours-spent:
+    input: number
+    accessorKey: bba-financial-accounting-hours-spent
+    key: bba-financial-accounting-hours-spent
+    id: bba-financial-accounting-hours-spent
+    label: bba-financial-accounting-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -220,12 +220,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  total-calorie-intake-amount:
-    input: text
-    accessorKey: total-calorie-intake-amount
-    key: total-calorie-intake-amount
-    id: total-calorie-intake-amount
-    label: Total Calorie Intake Amount
+  bba-managerial-written-communication-hours-spent:
+    input: number
+    accessorKey: bba-managerial-written-communication-hours-spent
+    key: bba-managerial-written-communication-hours-spent
+    id: bba-managerial-written-communication-hours-spent
+    label: bba-managerial-written-communication-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -239,126 +239,12 @@ columns:
       task_hide_completed: true
       footer_type: none
       persist_changes: false
-  total-protein-intake-amount:
-    input: text
-    accessorKey: total-protein-intake-amount
-    key: total-protein-intake-amount
-    id: total-protein-intake-amount
-    label: Total Protein Intake Amount
-    position: 100
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  morning-wakeup-routine-wake-up-time:
-    input: text
-    accessorKey: morning-wakeup-routine-wake-up-time
-    key: morning-wakeup-routine-wake-up-time
-    id: morning-wakeup-routine-wake-up-time
-    label: Morning Wakeup Routine Wake-up Time
-    position: 100
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  morning-mental-health-meditation-duration:
-    input: text
-    accessorKey: morning-mental-health-meditation-duration
-    key: morning-mental-health-meditation-duration
-    id: morning-mental-health-meditation-duration
-    label: Morning Mental Health Meditation Duration
-    position: 100
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  evening-mental-health-meditation-duration:
-    input: text
-    accessorKey: evening-mental-health-meditation-duration
-    key: evening-mental-health-meditation-duration
-    id: evening-mental-health-meditation-duration
-    label: Evening Mental Health Meditation Duration
-    position: 100
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  cried-counter:
-    input: text
-    accessorKey: cried-counter
-    key: cried-counter
-    id: cried-counter
-    label: Cried Counter
-    position: 100
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  morning-shower-duration:
-    input: text
-    accessorKey: morning-shower-duration
-    key: morning-shower-duration
-    id: morning-shower-duration
-    label: Morning Shower Duration
-    position: 100
-    skipPersist: false
-    isHidden: false
-    sortIndex: -1
-    config:
-      enable_media_view: true
-      link_alias_enabled: true
-      media_width: 100
-      media_height: 100
-      isInline: false
-      task_hide_completed: true
-      footer_type: none
-      persist_changes: false
-  evening-shower-duration:
-    input: text
-    accessorKey: evening-shower-duration
-    key: evening-shower-duration
-    id: evening-shower-duration
-    label: Evening Shower Duration
+  bba-psychology-hours-spent:
+    input: number
+    accessorKey: bba-psychology-hours-spent
+    key: bba-psychology-hours-spent
+    id: bba-psychology-hours-spent
+    label: bba-psychology-hours-spent
     position: 100
     skipPersist: false
     isHidden: false
@@ -387,7 +273,7 @@ config:
   show_metadata_outlinks: false
   show_metadata_tags: false
   source_data: tag
-  source_form_result: "#daily-note"
+  source_form_result: "#templates/daily-note"
   source_destination_path: Notes/Periodic-Notes/Daily-Notes
   row_templates_folder: /
   current_row_template: 

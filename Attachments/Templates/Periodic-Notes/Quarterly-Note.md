@@ -1,5 +1,5 @@
 ---
-tags: quarterly-note [[<%tp.date.now("YYYY")%>]]
+tags: templates/quarterly-note [[<%tp.date.now("YYYY")%>]]
 links: [[Quarterly-Reviews]]
 ---
 

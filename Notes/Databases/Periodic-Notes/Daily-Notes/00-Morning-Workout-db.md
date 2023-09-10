@@ -18,7 +18,7 @@ columns:
     skipPersist: false
     isDragDisabled: false
     csvCandidate: true
-    position: 0
+    position: 1
     isHidden: false
     sortIndex: -1
     config:
@@ -36,7 +36,7 @@ columns:
     key: morning-physical-health-warmup-jumping-jacks-sets
     id: morning-physical-health-warmup-jumping-jacks-sets
     label: Warmup Jumping Jacks Sets
-    position: 100
+    position: 3
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -55,7 +55,7 @@ columns:
     key: morning-physical-health-warmup-high-knees-sets
     id: morning-physical-health-warmup-high-knees-sets
     label: Warmup High Knees Sets
-    position: 100
+    position: 4
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -74,7 +74,7 @@ columns:
     key: morning-physical-health-warmup-arm-circles-sets
     id: morning-physical-health-warmup-arm-circles-sets
     label: Warmup Arm Circles Sets
-    position: 100
+    position: 5
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -93,7 +93,7 @@ columns:
     key: morning-physical-health-upper-body-pushups-sets
     id: morning-physical-health-upper-body-pushups-sets
     label: Upper Body Pushups Sets
-    position: 100
+    position: 6
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -112,7 +112,7 @@ columns:
     key: morning-physical-health-upper-body-dips-sets
     id: morning-physical-health-upper-body-dips-sets
     label: Upper Body Dips Sets
-    position: 100
+    position: 7
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -131,7 +131,7 @@ columns:
     key: morning-physical-health-upper-body-plank-sets
     id: morning-physical-health-upper-body-plank-sets
     label: Upper Body Plank Sets
-    position: 100
+    position: 8
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -150,7 +150,7 @@ columns:
     key: morning-physical-health-lower-body-squats-sets
     id: morning-physical-health-lower-body-squats-sets
     label: Lower Body Squats Sets
-    position: 100
+    position: 9
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -169,7 +169,7 @@ columns:
     key: morning-physical-health-lower-body-lunges-sets
     id: morning-physical-health-lower-body-lunges-sets
     label: Lower Body Lunges Sets
-    position: 100
+    position: 10
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -188,7 +188,7 @@ columns:
     key: morning-physical-health-lower-body-glute-bridges-sets
     id: morning-physical-health-lower-body-glute-bridges-sets
     label: Lower Body Glute Bridges Sets
-    position: 100
+    position: 11
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -207,7 +207,7 @@ columns:
     key: morning-physical-health-lower-body-calf-raises-sets
     id: morning-physical-health-lower-body-calf-raises-sets
     label: Lower Body Calf Raises Sets
-    position: 100
+    position: 12
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -226,7 +226,7 @@ columns:
     key: morning-physical-health-core-training-left-side-plank-sets
     id: morning-physical-health-core-training-left-side-plank-sets
     label: Core Training Left Side Plank Sets
-    position: 100
+    position: 13
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -245,7 +245,7 @@ columns:
     key: morning-physical-health-core-training-right-side-plank-sets
     id: morning-physical-health-core-training-right-side-plank-sets
     label: Core Training Right Side Plank Sets
-    position: 100
+    position: 14
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -264,7 +264,7 @@ columns:
     key: morning-physical-health-core-training-bicycle-crunches-sets
     id: morning-physical-health-core-training-bicycle-crunches-sets
     label: Core Training Bicycle Crunches Sets
-    position: 100
+    position: 15
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -283,7 +283,7 @@ columns:
     key: morning-physical-health-core-training-russian-twists-sets
     id: morning-physical-health-core-training-russian-twists-sets
     label: Core Training Russian Twists Sets
-    position: 100
+    position: 16
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -302,7 +302,7 @@ columns:
     key: morning-physical-health-core-training-leg-raises-sets
     id: morning-physical-health-core-training-leg-raises-sets
     label: Core Training Leg Raises Sets
-    position: 100
+    position: 17
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -321,7 +321,7 @@ columns:
     key: morning-physical-health-cardiovascualar-training-rope-skipping-count
     id: morning-physical-health-cardiovascualar-training-rope-skipping-count
     label: Cardiovascular Training Rope Skipping Count
-    position: 100
+    position: 18
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -340,7 +340,7 @@ columns:
     key: morning-physical-health-cardiovascular-training-burpees-sets
     id: morning-physical-health-cardiovascular-training-burpees-sets
     label: Cardiovascular Training Burpees Sets
-    position: 100
+    position: 19
     skipPersist: false
     isHidden: false
     sortIndex: -1
@@ -359,7 +359,26 @@ columns:
     key: morning-physical-health-cardiovascular-training-mountain-climbers-sets
     id: morning-physical-health-cardiovascular-training-mountain-climbers-sets
     label: Cardiovascular Training Mountain Climbers Sets
-    position: 100
+    position: 20
+    skipPersist: false
+    isHidden: false
+    sortIndex: -1
+    config:
+      enable_media_view: true
+      link_alias_enabled: true
+      media_width: 100
+      media_height: 100
+      isInline: false
+      task_hide_completed: true
+      footer_type: none
+      persist_changes: false
+  morning-running-duration:
+    input: number
+    accessorKey: morning-running-duration
+    key: morning-running-duration
+    id: morning-running-duration
+    label: morning-running-duration
+    position: 2
     skipPersist: false
     isHidden: false
     sortIndex: -1

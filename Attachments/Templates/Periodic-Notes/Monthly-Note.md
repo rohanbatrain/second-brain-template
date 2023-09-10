@@ -1,5 +1,5 @@
 ---
-tags: monthly-note [[<%tp.date.now("YYYY-[Q]")%><% tp.file.cursor(0) %>]]
+tags: templates/monthly-note [[<%tp.date.now("YYYY-[Q]")%><% tp.file.cursor(0) %>]]
 created: 
 month-summary:
 links: [[Monthly-Reviews]]

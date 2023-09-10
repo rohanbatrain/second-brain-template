@@ -1,11 +1,10 @@
 ---
-tags: daily-note
-reviewed_on:
-date:
+tags: templates/daily-note
+reviewed-on:
+date: <% tp.date.now("YYYY-MM-DD") %>
 day-summary:
 created: <% tp.date.now("YYYY-MM-DD HH:mm") %>
 week: <% tp.date.now("YYYY-[W]w", 0, tp.file.title) %>
-
 # Stastistics
 ## Personal
 ### Dailies
@@ -28,19 +27,16 @@ cried-counter:
 morning-shower-duration:
 evening-shower-duration:
 
-### Digital
-#### Android-Usage
-android-productivity-account-usage:
-android-education-account-usage:
-android-entertainment-account-usage:
-android-finance-and-government-account-usage:
 
 ### Screen time
 laptop-screen-time:
 android-screen-time:
+iphone-screen-time:
 
 # Morning routine
 ## Health
+## running
+morning-running-duration:
 ### Warmup
 morning-physical-health-warmup-jumping-jacks-reps:
 morning-physical-health-warmup-high-knees-reps:
@@ -65,24 +61,38 @@ morning-physical-health-cardiovascualar-training-rope-skipping-count:
 morning-physical-health-cardiovascualar-training-burpees-reps:
 morning-physical-health-cardiovascualar-training-mountain-climbers-reps:
 
-# College
-college-clock-in-time:
-college-clock-out-time:
+
 
 # Self Study
 ## Self-study-time-engineering
-engineering-self-study-clockin-time:
-engineering-self-study-clockout-time:
-engineering-self-study-subjects:
+### Semester-1
+btech-advance-engineering-mathematics-hours-spent:
+btech-environment-sustainibility-and-climate-change-hours-spent:
+btech-linux-lab-hours-spent:
+btech-living-conversations-hours-spent:
+btech-problem-solving-hours-spent:
+btech-programming-in-c-hours-spent:
 
-## Self-study-time-engineering
-bba-self-study-clockin-time:
-bba-self-study-clockout-time:
-bba-self-study-subjects:
 
-## Online-Education
+## Self-study-time-bba
+### Semester-1
+bba-basic-mathematics-hours-spent:
+bba-business-computing-hours-spent:
+bba-business-economics-hours-spent:
+bba-financial-accounting-hours-spent:
+bba-managerial-written-communication-hours-spent:
+bba-psychology-hours-spent:
+
+## Hobbies
 coursera-hours-spent:
-leetcode-hours-spent:
+### Library 
+library-time-spent:
+### College clubs 
+runway-incubation-hours-spent:
+
+## Projects
+
+
 
 # Evening
 ## Health
@@ -101,25 +111,54 @@ evening-physical-health-lower-body-weight-dumbell-reverse-lunges-reps:
 evening-physical-health-core-training-weight-dumbell-russian-twists-reps:
 
 # Meals
+## Meal Clock in time starts at when we decided to have a meal till when we return to the task with our hands on.
 ## Breakfast
 breakfast-name:
-breakfast-time:
+breakfast-clock-in-time:
+breakfast-clock-out-time:
 breakfast-feedback:
+breakfast-estimated-cost:
 ## Lunch
 lunch-name:
-lunch-time:
+lunch-clock-in-time:
+lunch-clock-out-time:
 lunch-feedback:
+lunch-estimated-cost:
 ## Snacks
 snacks-name:
-snacks-time:
+snacks-clock-in-time:
+snacks-clock-out-time:
 snacks-feedback:
+snacks-estimated-cost:
 ## Dinner
 dinner-name:
-dinner-time:
+dinner-clock-in-time:
+dinner-clock-out-time:
 dinner-feedback:
+dinner-estimated-cost:
 
 # Night
 night-bed-time:
+
+
+# Time-Trackers (Total Time Spent on a certain activity)
+music-listening:
+gaming:
+youtube:
+khan-academy:
+
+
+## College-Time-Trackers, write where were you engaged in college today.
+College-hour-0900: 
+College-hour-1000:
+College-hour-1100:
+College-hour-1200:
+College-hour-1300:
+College-hour-1400:
+College-hour-1500:
+College-hour-1600:
+College-hour-1700:
+
 ---
 
 # <% tp.date.now("YYYY-MM-DD") %>’s Note
@@ -133,14 +172,8 @@ night-bed-time:
 
 - [ ] Have you checked your yesterday suggestions for improving today?
 	 ![[<%tp.date.now("YYYY-MM-DD", -1)%>#Improvements]]
-- [ ] Review Databases.
-      [[00-Morning-Workout-db]]
-      [[01-Meal-db]]
-      [[02-Dailies-db]]
-      [[03-Android-Usage-db]]
-      [[04-Screen-time]]
-      [[05-Evening-Workout-db]]
-      [[06-Night-db]]
+- [ ] Carbohydrate drink has to be consumed asap after preparation 
+- [ ] All the spaces in yaml values should be replaced with an underscore symbol. Except for sentences.
 
 # Routine Tasks
 
@@ -151,23 +184,19 @@ night-bed-time:
 
 - [ ] Lemon water taken
 - [ ] Supplements taken
-- [ ] Dry fruits taken
-- [ ] Supplements taken
-- [ ] Tongue cleaning done
-- [ ] Brushing done
-- [ ] Gargle done
-- [ ] Nostril oiling done
-- [ ] Mouth oil pulling done
-- [ ] Stretching done
+    - [ ] Vitamins
+    - [ ] Biotin
+
 
 
 ### Health
 
 #### Preparation
 
-- [ ] Pre-meal digestive syrup taken
-- [ ] Carbohydrate drink taken
 - [ ] Meditation done
+- [ ] Morning Workout
+	- [ ] [[00-Morning-Workout-db]]
+
 
 #### Post-Workout
 
@@ -178,15 +207,14 @@ night-bed-time:
 
 #### Breakfast
 
-- [ ] Pre-meal supplement taken
 - [ ] Breakfast taken
-- [ ] Post-meal supplement taken
+	- [ ] [[01-Meal-db]] 
 
 ### Skincare
 
 - [ ] Cleanser applied
 - [ ] Face icing applied
-- [ ] Moisturizer applied
+- [ ] Moisturiser applied
 - [ ] Sun protection applied
 
 
@@ -195,10 +223,8 @@ night-bed-time:
 
 ## Afternoon
 
-- [ ] Pre-meal supplement taken
 - [ ] Lunch taken
-- [ ] Post-meal supplement taken
-
+	- [ ] [[01-Meal-db]] 
 
 ---
 
@@ -207,7 +233,9 @@ night-bed-time:
 ### Mental Health
 
 - [ ] Meditation done
-
+- [ ] Evening-Workout
+	- [ ] [[05-Evening-Workout-db]]
+ 
 ### Post Workout
 
 - [ ] Protein shake taken
@@ -218,40 +246,59 @@ night-bed-time:
 ## Night
 
 - [ ] Shower done
-- [ ] Pre-meal supplement taken
 - [ ] Dinner done
-- [ ] Post-meal supplement taken
 - [ ] Tongue cleaning done
 - [ ] Brushing done
 - [ ] Gargle done
 - [ ] Dry fruits soaking done
+- [ ] Review Databases.
+     - [ ] [[00-Morning-Workout-db]]
+     - [ ] [[01-Meal-db]]
+     - [ ] [[02-Dailies-db]]
+     - [ ] [[03-Screen-time]]
+     - [ ] [[04-Study-db]]
+     - [ ] [[05-Evening-Workout-db]]
+     - [ ] [[06-Night-db]]
 
 ---
 
 # Improvements
+---
 
 1. 
 
+
 # Today's Log
-
-
-## Goals and priorities
-
-> Max three unscheduled task a day.
-
-- [ ] Task-1 
-- [ ] Task-2
-- [ ] Task-3
+---
 
 
 
-## Journal
+# Today's Task
+---
 
-### Gratitude Journal
+
+```tasks
+has due date
+not done
+group by due
+hide edit button
+hide due date
+```
+
+
+
+
+# Journal
+---
+
+
+## Gratitude Journal
+---
+
 
 > 3 Things that i am grateful for in my life
 
-1. 
+1. <% tp.file.cursor(1) %> 
 2. 
 3.  
 
@@ -261,6 +308,36 @@ night-bed-time:
 1. 
 2. 
 3. 
+
+
+
+
+# Accounting
+---
+
+| S.No. | Credit/Debit | From/To | Notes | Bank-Account | Notes | 
+| ----- | ------------ | ------- | ----- | ------------ | ----- |
+
+
+# Statistical-Logs
+---
+
+
+## Khan Academy
+---
+
+| Course-Name | Started-Studying-On | Ended-Studying-On | Duration | 
+| ----------- | ------------------- | ----------------- | -------- |
+
+## Music
+---
+
+| Song-Name | Started-Listening-On | Ended-Listening-On | Duration | Platform | 
+| --------- | -------------------- | ------------------ | -------- | -------- |
+
+
+
+
 
 
 
